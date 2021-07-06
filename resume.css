@@ -1,0 +1,33 @@
+body
+{
+    background-color:burlywood;
+}
+.linkinfo
+{
+    color:chartreuse;
+}
+.mainlink
+{
+    border-right:2px solid #E1F1D5;
+
+}
+#link1 :after {
+position: absolute;
+  width: 5px;
+  height: 100px;
+  top: 10px;
+  left: 50%;
+  display: block;
+}
+#link1
+{
+    height: 100px;
+    float: left;
+    width: 100px;
+}
+#link2
+{
+    height: 100px;
+    width: 100px;
+    float: right;
+}

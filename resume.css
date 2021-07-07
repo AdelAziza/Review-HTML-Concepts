@@ -1,6 +1,6 @@
 body
 {
-    background-color:burlywood;
+    background-color:lightgrey;
 }
 .linkinfo
 {
@@ -11,23 +11,17 @@ body
     border-right:2px solid #E1F1D5;
 
 }
-#link1 :after {
-position: absolute;
-  width: 5px;
-  height: 100px;
-  top: 10px;
-  left: 50%;
-  display: block;
+
+.imagestyle{
+    border: 1px solid blue;
+    border-radius: 4px;
+    padding: 5px;
+    width: 650px;
+    height:200px;
 }
-#link1
-{
-    height: 100px;
-    float: left;
-    width: 100px;
+#h1{
+    color:red;
 }
-#link2
-{
-    height: 100px;
-    width: 100px;
-    float: right;
+.link1{
+    float:left;
 }

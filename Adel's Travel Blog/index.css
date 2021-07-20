@@ -1,15 +1,81 @@
-body
-{
-background: url("adel2.jpg") no-repeat fixed center;
 
-
-}
-
-h1{
-    color:blueviolet;
+#h1{
+        color:blueviolet;
+        text-align: center;
+        width: 200px;
+        margin:15px;
+        padding:20px;
+        font-size: 14px;
+        background: #eee;
+        display: inline-block;
+        vertical-align: middle;
+        position: center;
 }
 .im1
 {
-    height: 180px;
-    width : 300px;
+        height: 180px;
+        width : 300px;
+        border: 1px solid #000000;
+        border-radius: 10px;
+    
+
+}
+.pstyle1{
+    font-weight: arial;
+        
+      
+}
+
+/* Exercise Css */
+.divh
+{
+    background-color:brown;
+    border-radius: 10px;
+    padding:5px;
+}
+h1{
+    color:lemonchiffon;
+}
+.divp
+{
+background-color: black;
+border-radius: 15px;
+position: absolute;
+right: 35px;
+width: 800px;
+}
+.p1{
+    color:linen;
+    font-size: 40px;
+}
+.p2{
+    color:lightslategrey;
+    font-size: 15px;
+    text-decoration: underline;
+}
+li{
+    color:mediumaquamarine;
+}
+.div3
+{
+    background-color:maroon;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -200px;
+    width: 1500px;
+    color: lightsteelblue;
+}
+.li2
+{
+    color:midnightblue;
+    text-decoration-color: mediumslateblue;
+    text-decoration: underline;
+}
+.divh2
+{
+    background-color: lightseagreen;
+    border-radius: 20px;
+    width: 200px;
+    padding:10px;
+    display: inline-block;
 }

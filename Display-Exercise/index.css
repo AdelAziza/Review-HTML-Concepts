@@ -41,7 +41,7 @@ color:lemonchiffon;
 background-color: black;
 border-radius: 15px;
 position: absolute;
-right: -180px;
+right: -200px;
 width: 800px;
 
 }
@@ -62,7 +62,7 @@ color:mediumaquamarine;
 background-color:maroon;
 border-radius: 10px;
 position: absolute;
-bottom: -400px;
+bottom: -550px;
 width: 1500px;
 color: lightsteelblue;
 }
@@ -77,6 +77,15 @@ text-decoration: underline;
 background-color: lightseagreen;
 border-radius: 20px;
 width: 200px;
-padding:10px;
+padding:2px;
 display: inline-block;
+}
+.divimage
+{
+    border:solid lightcoral;
+    
+}
+img{
+    height: 100px;
+    width:400px;
 }

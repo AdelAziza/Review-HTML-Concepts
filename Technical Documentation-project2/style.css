@@ -1,0 +1,44 @@
+.intro
+{
+    border-radius: 10px;
+    padding-left: 2px;
+}
+.p1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20x;
+    text-decoration: maroon;
+
+}
+.divintro
+{
+color:oldlace;
+border-style: double;
+backface-visibility: initial;
+background-color: midnightblue;
+text-align: center;
+box-sizing: border-box;
+}
+.dic
+{
+    background-color: rgb(135, 235, 235);
+
+}
+.main
+{
+background-image: url(b1.jpg) ;
+  
+}
+.imb2
+{
+    height: 200px;
+
+}
+.linkDiv
+{
+    border-style: solid blue;
+    padding-left: 2px;
+    border-radius: 20px;
+
+
+}

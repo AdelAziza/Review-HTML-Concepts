@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #myDiv
+    {
+        transition: 2s;
+    }
+
+</style>
+<body id="myDiv">
+    <p></p>
+
+
+
+    <script>
+// default color
+    /*var myArray = ['red', 'green', 'blue'];    
+    var rand = myArray[Math.floor(Math.random() * myArray.length)];
+    document.getElementById("myDiv").style.backgroundColor = rand;*/
+
+/*
+1.	Create a variable named input that is equal to any phrase you’d like. This variable will contain the text you want to translate into “whale talk”.
+*/
+let input = 'We learn from our mistakes';
+
+/* 
+2.	Whales only speak in vowels so you need an array of vowels to be extracted from the input variable. Set the array equal to a variable named vowels that will not be updated.
+Note: Whales don’t consider “y” a vowel.
+
+
+*/
+const vowels = ['a', 'e', 'i', 'o', 'u'];
+
+/*
+3. Create a variable named resultArray and set it equal to an empty array: []. This will serve as a place to store the vowels from the input string.
+*/
+let resultArray = [] ;
+
+/*
+4. Create a loop to iterate through each letter of the input variable text. In a later step, we will compare each letter with our vowels array.
+*/
+for(let i = 0 ; i < input.lenght ; i ++){
+console.log('Elements of i si ' + i);
+}
+
+
+    </script>
+</body>
+</html>
